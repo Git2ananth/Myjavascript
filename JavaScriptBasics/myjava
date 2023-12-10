@@ -1,0 +1,6 @@
+var price = 10
+var product = "Toy"
+var Tax = 2
+var Total=price+Tax
+Console.log(product)
+Console.log(Total)
