@@ -1,0 +1,27 @@
+<h1 id="result">SelectedName</h1>
+<button id ="Name1" onclick="changeName1()">John</button>
+<button id ="Name2" onclick="changeName2()">Praveen</button>
+<button id ="Name3" onclick="changeName3()">Karthi</button>
+
+<script>
+//select button
+var resultname=document.getElementById("result")
+var NameJohn=document.getElementById("Name1")
+var NamePraveen=document.getElementById("Name2")
+var NameKarthik=document.getElementById("Name3")
+
+function changeName1()
+{
+    resultname.textContent=NameJohn.textContent
+}
+
+function changeName2()
+{
+    resultname.textContent=NamePraveen.textContent
+}
+
+function changeName3()
+{
+    resultname.textContent=NameKarthik.textContent
+}
+</script>
