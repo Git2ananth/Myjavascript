@@ -1,0 +1,17 @@
+<h1 id="result">SelectedName</h1>
+<button id ="Name1" onclick="change(event)">John</button>
+<button id ="Name2" onclick="change(event)">Praveen</button>
+<button id ="Name3" onclick="change(event)">Karthi</button>
+
+<script>
+//select button
+var resultname=document.getElementById("result")
+
+
+function change(event)
+{
+    
+    resultname.textContent=event.target.textContent
+}
+
+</script>
