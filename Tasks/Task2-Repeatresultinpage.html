@@ -1,0 +1,22 @@
+<!-- This is an example of an HTML comment -->
+
+<button onclick="update()">Add Hello</button>
+<div id="result">
+
+
+<script>
+
+//select input tag  and result tag
+
+var outvalue = document.getElementById("result")
+
+function update()
+{
+    //create element for h tag example <h1>hello</h1>
+    var listitem=document.createElement("h1")
+    listitem.textContent="Hello"
+    outvalue.append(listitem)
+    
+}
+
+</script>
